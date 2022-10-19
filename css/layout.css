@@ -35,16 +35,37 @@ button {
   color: #fff;
   transition: all 0.5s ease;
 }
-#header.on {
+#header.on, #header.full {
   background-color: #fff;
   color: #111;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
 }
-#header.on #logo #logo-white {
+#header.on #logo #logo-white, #header.full #logo #logo-white {
   display: none;
 }
-#header.on #logo #logo-color {
+#header.on #logo #logo-color, #header.full #logo #logo-color {
   display: block;
+}
+#header.full {
+  overflow: hidden;
+  height: 400px;
+}
+#header.fullgnb .list > li:hover .depth01 {
+  transition: none;
+}
+#header.fullgnb .list > li:hover .depth02 {
+  color: #fff;
+  transition: none;
+}
+#header.full #gnb .list .depth02 {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: #fff;
+  color: #111;
+  height: 300px;
+}
+#header.full #gnb .list .depth02 li {
+  opacity: 1;
 }
 #header .container {
   width: 1840px;
