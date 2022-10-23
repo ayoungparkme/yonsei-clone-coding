@@ -1,7 +1,7 @@
 #main-visual {
   height: 100vh;
   overflow: hidden;
-  background-image: url("/images/main/bg_main_visual.jpg");
+  background-image: url("../images/main/bg_main_visual.jpg");
   background-position: 0 100%;
   background-repeat: no-repeat;
 }
@@ -24,13 +24,13 @@
   background-size: cover;
 }
 #main-visual .mask .visual01 {
-  background-image: url("/images/main/main_visual_img1.png");
+  background-image: url("../images/main/main_visual_img1.png");
 }
 #main-visual .mask .visual02 {
-  background-image: url("/images/main/main_visual_img2.png");
+  background-image: url("../images/main/main_visual_img2.png");
 }
 #main-visual .mask .visual03 {
-  background-image: url("/images/main/history_img2.jpg");
+  background-image: url("../images/main/history_img2.jpg");
 }
 #main-visual > .contents {
   width: 100%;
