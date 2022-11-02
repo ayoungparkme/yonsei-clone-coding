@@ -85,21 +85,6 @@ gsap.from("#main-visual .title .char", {
     from: "random",
   },
 });
-const header = document.querySelector("#header");
-const gnb = document.querySelector("#gnb");
-const btnTop = document.querySelector(".btn-top");
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 0) {
-    header.classList.add("on");
-  } else {
-    header.classList.remove("on");
-  }
-  if (window.scrollY > 500) {
-    btnTop.classList.add("on");
-  } else {
-    btnTop.classList.remove("on");
-  }
-});
 
 const fundList = document.querySelectorAll(".fund-list li");
 const total = fundList.length;
